@@ -9,4 +9,3 @@ DEBIAN 12
 ```
 wget --no-check-certificate https://raw.githubusercontent.com/beryindo/DNS_RPZ_Kominfo/main/install.sh
 ```
-```
