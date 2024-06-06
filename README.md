@@ -31,7 +31,7 @@ wget https://raw.githubusercontent.com/beryindo/DNS_RPZ_Kominfo/main/named.conf.
 nano /etc/bind/named.conf.options
 ```
 
-Edit 103.192.174.0/24 menjadi ip publik anda
+Edit 103.123.456.0/24 menjadi ip publik anda, bukan singel IP, tapi /24 ya
 
 CTRL + X
 
