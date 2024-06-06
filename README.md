@@ -1,7 +1,7 @@
 # DNS_RPZ_Kominfo
 DNS RPZ Sinkron Kominfo
 
-Lakukan pengisihan form data pada link berikut
+Lakukan pengisian form data pada link berikut
 http://bit.ly/FormKoneksiRPZ
 
 DEBIAN 12
