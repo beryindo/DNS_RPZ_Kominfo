@@ -20,3 +20,8 @@ mv /etc/bind/named.conf.default-zones /etc/bind/named.conf.default-zones.bak
 ```
 mv /etc/bind/named.conf.options /etc/bind/named.conf.options.bak
 ```
+```
+wget https://github.com/beryindo/DNS_RPZ_Kominfo/blob/main/named.conf.default-zones
+```
+```
+wget https://github.com/beryindo/DNS_RPZ_Kominfo/blob/main/named.conf.options
