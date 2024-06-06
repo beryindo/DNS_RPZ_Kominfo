@@ -1,0 +1,18 @@
+options {
+	directory "/var/cache/bind";
+	allow-query { 127.0.0.0/8; 103.123.456.0/24; };
+	response-policy {
+		zone "trustpositifkominfo"
+		policy cname lamanlabuh.aduankonten.id
+		max-policy-ttl 30
+		log no;
+	}
+	recursive-only yes
+	qname-wait-recurse no
+	break-dnssec yes
+	nsip-wait-recurse no;
+
+	dnssec-validation auto;
+
+	listen-on-v6 { any; };
+};
