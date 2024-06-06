@@ -33,7 +33,9 @@ nano /etc/bind/named.conf.options
 Edit 103.192.174.0/24 menjadi ip publik anda
 
 CTRL + X
+
 Y
+
 ENTER
 
 ```
@@ -43,8 +45,6 @@ systemctl restart bind9
 dig AXFR @103.154.123.130 trustpositifkominfo +noidnout
 ```
 ini memakan waktu lama, tunggu hinggal selesai
-
-```
 ```
 dig IXFR=0 trustpositifkominfo @103.154.123.130 +noidnout
 ```
