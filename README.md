@@ -37,7 +37,6 @@ Y
 ENTER
 
 ```
-```
 systemctl restart bind9
 ```
 ```
