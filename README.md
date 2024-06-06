@@ -21,7 +21,16 @@ mv /etc/bind/named.conf.default-zones /etc/bind/named.conf.default-zones.bak
 mv /etc/bind/named.conf.options /etc/bind/named.conf.options.bak
 ```
 ```
-wget https://github.com/beryindo/DNS_RPZ_Kominfo/blob/main/named.conf.default-zones
+wget https://raw.githubusercontent.com/beryindo/DNS_RPZ_Kominfo/main/named.conf.default-zones -P /etc/bind/
 ```
 ```
-wget https://github.com/beryindo/DNS_RPZ_Kominfo/blob/main/named.conf.options
+wget https://raw.githubusercontent.com/beryindo/DNS_RPZ_Kominfo/main/named.conf.options -P /etc/bind/
+```
+```
+nano /etc/bind/named.conf.options
+
+Edit 103.192.174.0 menjadi ip publik anda
+
+CTRL + X
+Y
+ENTER
