@@ -44,8 +44,10 @@ systemctl restart bind9
 ```
 dig AXFR @103.154.123.130 trustpositifkominfo +noidnout
 ```
+
 ini memakan waktu lama, tunggu hinggal selesai
 ```
+
 dig IXFR=0 trustpositifkominfo @103.154.123.130 +noidnout
 ```
 ini memakan waktu lama, tunggu hinggal selesai
