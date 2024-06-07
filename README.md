@@ -16,4 +16,7 @@ chmod +x install.sh
 sh install.sh
 ```
 Tutorial Youtube
-https://youtu.be/gW63F4MPAHI
+
+Install https://youtu.be/gW63F4MPAHI
+
+Local landing page https://youtu.be/RRfxsgeNR0k
