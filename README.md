@@ -20,3 +20,8 @@ Tutorial Youtube
 Install https://youtu.be/gW63F4MPAHI
 
 Local landing page https://youtu.be/RRfxsgeNR0k
+
+```
+apt install certbot python3-certbot-apache apache2 -y
+```
+```
