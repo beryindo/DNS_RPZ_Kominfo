@@ -23,6 +23,7 @@ Local landing page https://youtu.be/RRfxsgeNR0k
 
 ```
 apt install certbot python3-certbot-apache apache2 -y
-```
 certbot --apache --agree-tos --email you@example.com -d yourdomain.com
+```
+
 ```
