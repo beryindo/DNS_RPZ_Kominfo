@@ -59,12 +59,12 @@ systemctl restart bind9
 echo "++++++++++++++++++++++++++++++++++++++++++++++++++++"
 echo "AXFR Trust Positif Kominfo"
 echo "++++++++++++++++++++++++++++++++++++++++++++++++++++"
-dig AXFR @103.154.123.130 trustpositifkominfo +noidnout
+dig AXFR @139.255.196.202 trustpositifkominfo +noidnout
 
 echo "++++++++++++++++++++++++++++++++++++++++++++++++++++"
 echo "IXFR Trust Positif Kominfo"
 echo "++++++++++++++++++++++++++++++++++++++++++++++++++++"
-dig IXFR=0 trustpositifkominfo @103.154.123.130 +noidnout
+dig IXFR=0 trustpositifkominfo @139.255.196.202 +noidnout
 
 echo "----------------------------------------------------"
 echo "Restart bind9"
