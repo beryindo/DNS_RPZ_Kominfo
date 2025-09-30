@@ -19,7 +19,7 @@ lalu full clone dari vm100000
 login ke vm yang sudah diclone
 
 ```
-apt update && upgrade -y
+apt update && apt upgrade -y
 ```
 
 ```
