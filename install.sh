@@ -48,7 +48,7 @@ read -p "Masukan Blok IP Anda, misal 103.123.456.0: " ipaddress
 echo "----------------------------------------------------"
 echo "update IP Public"
 echo "----------------------------------------------------"
-sed -i 's/103.123.456.0/'$ipaddress'/g' /etc/bind/named.conf.options
+sed -i 's/103.123.456.0/'$ipaddress'/g' /etc/bind/named.conf.default-zones
 
 echo "----------------------------------------------------"
 echo "Restart bind9"
