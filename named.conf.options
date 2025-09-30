@@ -1,6 +1,5 @@
 options {
-	directory "/var/cache/bind";
-	allow-query { 127.0.0.0/8; 103.123.456.0/24; };
+	directory "/var/cache/bind";	
 	response-policy {
 		zone "trustpositifkominfo"
 		policy cname lamanlabuh.aduankonten.id
