@@ -29,7 +29,14 @@ zone "255.in-addr.arpa" {
 
 zone "trustpositifkominfo" {
 	type slave;
-	masters { 103.154.123.130;139.255.196.202; };
-	file "slave.trustpositifkominfo";
-	notify explicit;
+	file "db.trustpositifkominfo";
+	masters {
+		103.154.123.130;
+		139.255.196.202;
+	};
+	allow-query {
+		127.0.0.0/8;
+		103.123.456.0/24;
+	};
+	masterfile-format text;
 };
