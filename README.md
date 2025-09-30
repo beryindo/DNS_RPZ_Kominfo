@@ -10,7 +10,7 @@ Disable dulu repositori yang mengarah ke proxmox, karena ini untuk yang berbayar
 ![alt text](https://raw.githubusercontent.com/beryindo/DNS_RPZ_Kominfo/refs/heads/main/2025-09-30_222954.jpg)
 
 
-
+Masuk ke shell PVE
 ```
 apt update && apt install libguestfs-tools -y
 ```
