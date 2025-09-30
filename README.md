@@ -4,7 +4,23 @@ DNS RPZ Sinkron Kominfo
 Lakukan pengisian form data pada link berikut
 http://bit.ly/FormKoneksiRPZ
 
-DEBIAN 12
+INSTALL DEBIAN 12 PROXMOX
+```
+apt update && apt install libguestfs-tools -y
+```
+```
+wget --no-check-certificate https://raw.githubusercontent.com/beryindo/DNS_RPZ_Kominfo/refs/heads/main/create-cloud-init.sh
+```
+```
+chmode +x create-cloud-init.sh
+./create-cloud-init.sh
+```
+lalu full clone dari vm100000
+login ke vm yang sudah diclone
+
+```
+apt update && upgrade -y
+```
 
 ```
 wget --no-check-certificate https://raw.githubusercontent.com/beryindo/DNS_RPZ_Kominfo/main/install.sh
