@@ -18,7 +18,7 @@ apt update && apt install libguestfs-tools -y
 wget --no-check-certificate https://raw.githubusercontent.com/beryindo/DNS_RPZ_Kominfo/refs/heads/main/create-cloud-init.sh
 ```
 ```
-chmode +x create-cloud-init.sh
+chmod +x create-cloud-init.sh
 ./create-cloud-init.sh
 ```
 lalu full clone dari vm100000
